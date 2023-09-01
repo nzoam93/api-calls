@@ -1,0 +1,32 @@
+#cards{
+    display: flex;
+    justify-content: space-around;
+}
+
+#card, #card-random{
+    height: 525px;
+    width: 375px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#cardTitle, #cardTitle-random{
+    font-size: 20px;
+}
+
+#cardImage, #cardImage-random{
+    width: 345px;
+    height: 270px;
+}
+
+#textBox, #textBox-random{
+    width: 345px;
+    height: 192px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

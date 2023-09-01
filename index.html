@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scryfall API Practice</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <script src="index.js"></script>
+</head>
+<body>
+    <form id="searchForm">
+        <input type="text" id="searchQuery" placeholder="Type in a card name:">
+        <button type="button" id="searchButton">Search</button>
+    </form>
+    <div id="cards">
+        <div id="card">
+            <h2 id="cardTitle"></h2>
+            <div id="artSpace">
+                <img id="cardImage" src="" alt="Card Art">
+            </div>
+            <div id="textBox"></div>
+        </div>
+
+        <div id="card-random">
+            <h2 id="cardTitle-random"></h2>
+            <div id="artSpace-random">
+                <img id="cardImage-random" src="" alt="Card Art">
+            </div>
+            <div id="textBox-random"></div>
+        </div>
+    </div>
+</body>
+</html>
